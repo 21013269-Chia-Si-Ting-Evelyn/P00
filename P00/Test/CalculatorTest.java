@@ -24,11 +24,11 @@ public class CalculatorTest {
 	public void tearDown() throws Exception {
 	}
 
-	@Test
+
 	//public void test() {
 		//fail("Not yet implemented");
 	
-	
+	@Test
 	//test case for addition  
 	  public void testAdd() {
 	      int a = 4321;
@@ -40,6 +40,7 @@ public class CalculatorTest {
 	      int expected = 5555;
 	      assertEquals (expected, actual);
 	      }
+	@Test
 	  //test case for subtract
 	  public void testsubtract() {
 	    int a = 4321;
@@ -51,6 +52,7 @@ public class CalculatorTest {
 	    int expected = 3087;
 	    assertEquals (expected, actual);
 	    }
+	@Test
 	  //test case for multiply
 	  public void testmultiply() {
 	    int a = 4321;
@@ -63,6 +65,7 @@ public class CalculatorTest {
 	    assertEquals (expected, actual);
 	    }
 	  //test case for divide
+	@Test
 	  public void testdivide() {
 	    int a = 4321;
 	    int b = 1234;
